@@ -19,7 +19,7 @@ Some terraform samples that can be usefull
    vm_name                   # Azure Virtual Machine name (resource name)
    username                  # VM user name
    vm_hostname               # Name of the host used by the virtual machine
-   vm_size                   # Azure VM Size, check [Azure VMs](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/sizes)
+   vm_size                   # Azure VM Size, check https://docs.microsoft.com/en-us/azure/virtual-machines/linux/sizes
    public_ip_dns             # Azure domain name for the region
    vnet_name                 # Name of the Virtual network
    vnet_address_space        # VNET address space
