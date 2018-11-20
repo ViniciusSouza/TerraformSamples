@@ -18,6 +18,11 @@ variable "vm_hostname" {
   default     = "vinitest"
 }
 
+variable "custom_image_id" {
+  description = "id of the image"
+  default     = "/subscriptions/subscription_id/resourceGroups/resource_name/providers/Microsoft.Compute/images/image_name"
+}
+
 variable "username" {
   description = "username name"
   default     = "visouza"

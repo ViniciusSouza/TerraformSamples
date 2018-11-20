@@ -142,11 +142,17 @@ resource "azurerm_virtual_machine" "vm" {
         managed_disk_type = "Premium_LRS"
     }
 
+    ##Azure Image
+    # storage_image_reference {
+    #     publisher = "Canonical"
+    #     offer     = "UbuntuServer"
+    #     sku       = "16.04.0-LTS"
+    #     version   = "latest"
+    # }
+
+    ##Custom Image
     storage_image_reference {
-        publisher = "Canonical"
-        offer     = "UbuntuServer"
-        sku       = "16.04.0-LTS"
-        version   = "latest"
+        id = "${var.custom_image_id}"
     }
 
     os_profile {

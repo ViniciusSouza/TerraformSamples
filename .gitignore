@@ -7,3 +7,4 @@
 
 # .tfvars files
 *secrets*.tfvars
+VirtualMachine/packer/my_env.sh
